@@ -1,5 +1,15 @@
 # AlertANSSI - ANSSI Vulnerability Monitor
 
+## 📈 Visualization & Statistics
+
+The notebook `data_analysis_en.ipynb` focuses on the graphical interpretation of vulnerability data. It features a complete data processing pipeline including cleaning, aggregation, and advanced visualization using **Seaborn** and **Matplotlib**.
+
+**Key insights include:**
+* **Data Acquisition:** Methodology for retrieving and cleaning raw data from official ANSSI feeds.
+* **Impact Modeling:** Through histograms and pie charts, we model the actual distribution of severity scores.
+* **Risk Identification:** Highlighting the prevalence of "Denial of Service" and "Memory Corruption" risks in critical infrastructures.
+* **Correlation Analysis:** Heatmaps revealing the relationship between software vendors and specific vulnerability types (CWE).
+
 
 ## Features
 
