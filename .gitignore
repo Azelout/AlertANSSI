@@ -1,0 +1,8 @@
+__pycache__
+venv/*
+users.json
+config.yaml
+*.csv
+*.pdf
+.env
+*.egg-info/

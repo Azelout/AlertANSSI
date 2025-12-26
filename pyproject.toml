@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anssi_monitor"
+version = "0.1.0"
+description = "ANSSI vulnerability monitoring and alert tool"
+readme = "README.md"
+authors = [{name = "Azel O."}]
+dependencies = [
+    "pandas",
+    "requests",
+    "feedparser",
+    "fpdf2",
+    "matplotlib",
+    "numpy"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json", "*.csv"]

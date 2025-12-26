@@ -1,0 +1,22 @@
+{
+    "pdf": {
+        "title": "Vulnerability Report",
+        "top_10_title": "Top 10 major vulnerabilities in your alert:",
+        "critical_zone": "CRITICAL ZONE",
+        "threshold": "Critical threshold",
+
+        "risk_graph_title": "Risk Prioritization Matrix",
+        "risk_graph_ylabel": "Attack Probability (EPSS Score)",
+        "risk_graph_xlabel": "CVSS Severity (Theoretical Impact)",
+
+        "vulnabilities_detected": "We detected {amount} vulnerabilities. All your vulnerabilities are available in .csv format.",
+
+        "generated_on": "Generated on {date}",
+        "page": "Page"
+    },
+    "columns_label": {
+        "anssi_title": "ANSSI Title",
+        "base_severity": "Severity",
+        "epss_score": "EPSS Score"
+    }
+}
