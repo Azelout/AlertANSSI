@@ -1,0 +1,22 @@
+{
+    "pdf": {
+        "title": "Rapport de Vulnérabilités",
+        "top_10_title": "Les 10 plus grandes vulnérabilités de votre alerte:",
+        "critical_zone": "ZONE CRITIQUE",
+        "threshold": "Seuil critique",
+
+        "risk_graph_title": "Matrice de Priorisation des Risques",
+        "risk_graph_ylabel": "Probabilité d'attaque (Score EPSS)",
+        "risk_graph_xlabel": "Sévérité CVSS (Impact théorique)",
+
+        "vulnabilities_detected": "Nous avons détecté {amount} vulnérabilités. L'ensemble de vos vulnaribilité est présent au format .csv.",
+
+        "generated_on": "Généré le {date}",
+        "page": "Page"
+    },
+    "columns_label": {
+        "anssi_title": "Titre ANSSI",
+        "base_severity": "Sévérité",
+        "epss_score": "Score EPSS"
+    }
+}
